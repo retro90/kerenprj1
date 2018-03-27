@@ -1,0 +1,142 @@
+body {
+  background-color:#800000;
+  color: yellow;
+  margin: 25px 50px 75px;
+  padding: 50px 75px;
+  font-family: 'Lora', serif;
+}
+footer {
+    text-align: center;
+    padding: inherit;
+}
+#sitetitle {
+  font-family: 'Amatica SC', cursive;
+}
+h1 {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+}
+h6 {
+  font-family: 'Bree Serif', serif;
+}
+iframe {
+  align-content: center;
+}
+.purple {
+  background-color: purple;
+  padding: 10px;
+  width: 990px;
+}
+.w990 {
+  width: 990px;
+}
+.h380 {
+  height: 380px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html {
+  font-family: 'Bree Serif', serif;
+}
+.header {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    width: 990px;
+    font-family: 'Bree Serif', serif;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 10px 20px 30px;
+    margin-bottom: 8px;
+    background-color: #111;
+    color: yellow;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: purple;
+}
+.menu {
+    width: 25%;
+    float: left;
+}
+.main {
+    width: 75%;
+    float: left;
+}
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #8b1a89;
+    background-color: transparent;
+    text-decoration: underline;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
